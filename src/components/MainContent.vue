@@ -57,8 +57,8 @@ const birdData = {
   
   .bird-image {
     height: 634px;
-    background-image: url('/bg.jpe');
-    background-size: 175% ; 
+    background-image: url('/bg.webp');
+    background-size: 175%;
     background-position: 75% 50%;
     position: relative;
     
