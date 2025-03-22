@@ -17,7 +17,11 @@ import MainContent from './components/MainContent.vue';
   color: #333;
 }
 
-
+@media (max-width: $tablet-breakpoint) {
+  .container {
+    height: auto;
+  }
+}
 
 @media (max-width: $mobile-breakpoint) {
   .container {

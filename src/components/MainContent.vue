@@ -56,7 +56,7 @@ const birdData = {
   flex-direction: column;
   
   .bird-image {
-    height: 65%;
+    height: 634px;
     background-image: url('/bg.jpe');
     background-size: 175% ; 
     background-position: 75% 50%;
@@ -152,11 +152,17 @@ const birdData = {
 }
 
 @media (max-width: $tablet-breakpoint) {
+  .main-content {
+    height: auto;
+    min-height: 100vh;
+  }
+
   .info-container {
     flex-direction: column;
   }
 
   .info-container {
+    flex: 1;
     gap: 50px;  
   }
 }
