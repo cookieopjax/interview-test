@@ -6,15 +6,23 @@ import MainContent from './components/MainContent.vue';
 <template>
   <div class="container">
     <Sidebar/>
-    <MainContent/>
+    <div class="main-content-container">
+      <MainContent/>
+    </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
 .container {
   display: flex;
-  height: 100vh;
   color: #333;
+}
+
+.main-content-container {
+  /* 讓主內容區域佔滿剩餘空間，讓其內部滾動 */
+  flex: 1;
+  overflow-y: auto;
+  height: 100vh;
 }
 
 @media (max-width: $tablet-breakpoint) {
