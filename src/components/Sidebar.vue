@@ -26,7 +26,7 @@ const isCollapsed = ref(true);
 </script>
 
 <template>
-  <div class="sidebar">
+  <nav class="sidebar">
     <div class="sidebar-header">
       <div class="hamburger-container">
         <img src="/hamburger.png" alt="hamburger" class="hamburger" @click="isCollapsed = !isCollapsed">
@@ -43,7 +43,7 @@ const isCollapsed = ref(true);
         </li>
       </ul>
     </div>
-  </div>
+  </nav>
 </template>
 
 <style lang="scss" scoped>

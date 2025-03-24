@@ -11,14 +11,14 @@ const birdData = {
 </script>
 
 <template>
-  <div class="main-content">
+  <main class="main-content">
     <div class="bird-image">
         <div class="bird-info">
           <h1>{{ birdData.name }} <span>({{ birdData.englishName }})</span></h1>
           <p class="description">{{ birdData.description }}</p>
         </div>
       </div>
-      <div class="info-container">
+      <article class="info-container">
         <div class="info-box appearance">
           <div class="title-wrapper">
             <h2>外觀</h2>
@@ -40,8 +40,8 @@ const birdData = {
           </div>
           <p>{{ birdData.diet }}</p>
         </div>
-      </div>
-  </div>
+      </article>
+  </main>
 </template>
 
 <style lang="scss" scoped>
